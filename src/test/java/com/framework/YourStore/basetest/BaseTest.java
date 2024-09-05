@@ -26,13 +26,13 @@ public class BaseTest {
 	
 	@BeforeTest
 	public void setup() throws IOException {
-		pf = new PlaywrightPagefactory();
-		property = pf.readPropertyFile();
-		readLocator = pf.readLocatorPropertyFile();
-		page = pf.launchBrowser(property);
-		hp = new Homepage(page,readLocator);
+		this.pf = new PlaywrightPagefactory();
+		this.property = pf.readPropertyFile();
+		this.readLocator = pf.readLocatorPropertyFile();
+		this.page = pf.launchBrowser(property);
+		this.hp = new Homepage(page,readLocator);
 
-		loginPage = new Loginpage(page, readLocator);
+		this.loginPage = new Loginpage(page, readLocator);
 
 	}
 

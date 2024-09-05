@@ -1,0 +1,7 @@
+framework\YourStore\Pages\RegisterPage.class
+framework\YourStore\PageFactory\PlaywrightPagefactory$1.class
+framework\YourStore\constants\YourStoreConstants.class
+framework\YourStore\Pages\Homepage.class
+framework\YourStore\Listeners\ExtentReportListener.class
+framework\YourStore\Pages\Loginpage.class
+framework\YourStore\PageFactory\PlaywrightPagefactory.class

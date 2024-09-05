@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="framework.YourStore.Listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="LoginPage Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.framework.YourStore.tests.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.framework.YourStore.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPage Tests(failed) -->
+  <test thread-count="3" parallel="tests" name="RegisterPage Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.framework.YourStore.tests.RegisterPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="doRegisterNewUserTest"/>
+        </methods>
+      </class> <!-- com.framework.YourStore.tests.RegisterPageTest -->
+    </classes>
+  </test> <!-- RegisterPage Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
