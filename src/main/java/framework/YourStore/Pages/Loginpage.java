@@ -38,7 +38,7 @@ public class Loginpage {
 		page.fill(readLocator.getProperty("passwordfield"), password);
 		page.click(readLocator.getProperty("loginbutton"));
 		TimeUnit.SECONDS.sleep(4);
-		if (page.isVisible(readLocator.getProperty("logoutLink"))) {
+		if (page.isVisible(readLocator.getProperty("myAccountHeader"))) {
 
 			System.out.println("Login Successful.");
 			return true;

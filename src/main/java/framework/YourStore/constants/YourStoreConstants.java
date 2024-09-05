@@ -1,5 +1,6 @@
 package framework.YourStore.constants;
 
+
 public class YourStoreConstants{
 	
 public static final String HomePage_Title ="Your Store";	

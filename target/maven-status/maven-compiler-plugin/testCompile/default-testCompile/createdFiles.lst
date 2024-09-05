@@ -1,0 +1,4 @@
+com\framework\YourStore\tests\HomepageTest.class
+com\framework\YourStore\tests\RegisterPageTest.class
+com\framework\YourStore\basetest\BaseTest.class
+com\framework\YourStore\tests\LoginPageTest.class

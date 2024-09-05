@@ -5,10 +5,7 @@ searchIcon=button[class='btn btn-default btn-lg']
 searchResultHeader=div#content h1
 myAccountDropdown=a[title='My Account']
 loginLink=a:text('Login')
-<<<<<<< HEAD
 registerLink=a:text('Register')
-=======
->>>>>>> 7c7aaa8b0ef7a37a80ea915b8df706f4f7af5e60
 
 ******************LoginPage****************************************
 
@@ -16,7 +13,6 @@ usernamefield=input#input-email
 passwordfield=input#input-password
 forgottenpasswordlink=//div[@class='form-group']//a[normalize-space()='Forgotten Password']
 loginbutton=input[value='Login']
-<<<<<<< HEAD
 myAccountHeader=//h2[text()='My Account']
 
 ******************RegisterPage****************************************
@@ -31,6 +27,5 @@ confirmPassword=//input[@id='input-confirm']
 checkboxPrivacyPolicy=//input[@name='agree']
 continue=//input[@value='Continue']
 accountcreationheader=//h1[text()='Your Account Has Been Created!']
-=======
 logoutLink=a:text('Logout')
->>>>>>> 7c7aaa8b0ef7a37a80ea915b8df706f4f7af5e60
+
