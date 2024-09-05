@@ -1,16 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>Framework</groupId>
-  <artifactId>JavaPlaywright</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>Framework</groupId>
+	<artifactId>JavaPlaywright</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>JavaPlaywright</name>
-  <url>http://maven.apache.org</url>
+	<name>JavaPlaywright</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
+	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<playwright.version>1.44.0</playwright.version>
@@ -31,9 +32,9 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>${testng.version}</version>
-			
+			<version>7.10.2</version>
 		</dependency>
+
 
 		<!-- Log4j2 Core -->
 		<dependency>
@@ -48,7 +49,6 @@
 			<artifactId>log4j-api</artifactId>
 			<version>${log4j2.version}</version>
 		</dependency>
-
 		<!-- ExtentReports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -69,7 +69,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
+				<version>3.6.1</version>
 				<configuration>
 					<source>${maven.compiler.source}</source>
 					<target>${maven.compiler.target}</target>
@@ -82,6 +82,10 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.1.2</version>
 				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>.\src\test\java\TestRunner\testNG_runner.xml</suiteXmlFile> <!-- Path to your
+						TestNG suite -->
+					</suiteXmlFiles>
 					<includes>
 						<include>**/*Test.java</include>
 					</includes>
