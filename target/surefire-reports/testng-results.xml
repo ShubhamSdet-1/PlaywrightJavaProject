@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-05T07:58:48 IST" name="Suite" finished-at="2024-09-05T07:59:11 IST" duration-ms="23884">
+  <suite started-at="2024-09-09T12:33:41 IST" name="Suite" finished-at="2024-09-09T12:34:02 IST" duration-ms="21027">
     <groups>
     </groups>
-    <test started-at="2024-09-05T07:58:48 IST" name="HomePage Tests" finished-at="2024-09-05T07:59:07 IST" duration-ms="19865">
+    <test started-at="2024-09-09T12:33:41 IST" name="HomePage Tests" finished-at="2024-09-09T12:33:57 IST" duration-ms="15811">
       <class name="com.framework.YourStore.tests.HomepageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-05T07:58:48 IST" name="setup" finished-at="2024-09-05T07:59:01 IST" duration-ms="13752" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-09T12:33:41 IST" name="setup" finished-at="2024-09-09T12:33:53 IST" duration-ms="11917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="urlTest()[pri:1, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-05T07:59:01 IST" name="urlTest" finished-at="2024-09-05T07:59:01 IST" duration-ms="1" status="PASS">
+        <test-method signature="urlTest()[pri:1, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-09T12:33:53 IST" name="urlTest" finished-at="2024-09-09T12:33:53 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTest -->
-        <test-method signature="titleTest()[pri:2, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-05T07:59:04 IST" name="titleTest" finished-at="2024-09-05T07:59:04 IST" duration-ms="12" status="PASS">
+        <test-method signature="titleTest()[pri:2, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-09T12:33:54 IST" name="titleTest" finished-at="2024-09-09T12:33:54 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:3, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-05T07:59:04 IST" name="searchTest" data-provider="getProduct" finished-at="2024-09-05T07:59:05 IST" duration-ms="581" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:3, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-09T12:33:54 IST" name="searchTest" data-provider="getProduct" finished-at="2024-09-09T12:33:54 IST" duration-ms="449" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:3, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-05T07:59:06 IST" name="searchTest" data-provider="getProduct" finished-at="2024-09-05T07:59:06 IST" duration-ms="452" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:3, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-09T12:33:55 IST" name="searchTest" data-provider="getProduct" finished-at="2024-09-09T12:33:56 IST" duration-ms="743" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:3, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-05T07:59:06 IST" name="searchTest" data-provider="getProduct" finished-at="2024-09-05T07:59:07 IST" duration-ms="481" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:3, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-09T12:33:56 IST" name="searchTest" data-provider="getProduct" finished-at="2024-09-09T12:33:56 IST" duration-ms="437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,90 +52,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-05T07:59:07 IST" name="tearDown" finished-at="2024-09-05T07:59:07 IST" duration-ms="480" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.YourStore.tests.HomepageTest@479460a6]" started-at="2024-09-09T12:33:57 IST" name="tearDown" finished-at="2024-09-09T12:33:57 IST" duration-ms="609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.framework.YourStore.tests.HomepageTest -->
     </test> <!-- HomePage Tests -->
-    <test started-at="2024-09-05T07:58:48 IST" name="LoginPage Tests" finished-at="2024-09-05T07:59:10 IST" duration-ms="22756">
+    <test started-at="2024-09-09T12:33:41 IST" name="LoginPage Tests" finished-at="2024-09-09T12:34:01 IST" duration-ms="19393">
       <class name="com.framework.YourStore.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-05T07:58:48 IST" name="setup" finished-at="2024-09-05T07:59:01 IST" duration-ms="13165" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-09T12:33:41 IST" name="setup" finished-at="2024-09-09T12:33:54 IST" duration-ms="12252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="navigateToLoginPageTest()[pri:1, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-05T07:59:01 IST" name="navigateToLoginPageTest" finished-at="2024-09-05T07:59:01 IST" duration-ms="559" status="PASS">
+        <test-method signature="navigateToLoginPageTest()[pri:1, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-09T12:33:54 IST" name="navigateToLoginPageTest" finished-at="2024-09-09T12:33:54 IST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPageTest -->
-        <test-method signature="urlTest()[pri:2, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-05T07:59:02 IST" name="urlTest" finished-at="2024-09-05T07:59:04 IST" duration-ms="1921" status="PASS">
+        <test-method signature="urlTest()[pri:2, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-09T12:33:55 IST" name="urlTest" finished-at="2024-09-09T12:33:56 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTest -->
-        <test-method signature="loginTest()[pri:3, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-05T07:59:04 IST" name="loginTest" finished-at="2024-09-05T07:59:09 IST" duration-ms="5043" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1067)
-at org.testng.Assert.assertEquals(Assert.java:1031)
-at org.testng.Assert.assertEquals(Assert.java:1077)
-at com.framework.YourStore.tests.LoginPageTest.loginTest(LoginPageTest.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="loginTest()[pri:3, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-09T12:33:56 IST" name="loginTest" finished-at="2024-09-09T12:34:00 IST" duration-ms="4655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-05T07:59:09 IST" name="tearDown" finished-at="2024-09-05T07:59:10 IST" duration-ms="910" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.YourStore.tests.LoginPageTest@66c61024]" started-at="2024-09-09T12:34:00 IST" name="tearDown" finished-at="2024-09-09T12:34:01 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.framework.YourStore.tests.LoginPageTest -->
     </test> <!-- LoginPage Tests -->
-    <test started-at="2024-09-05T07:58:48 IST" name="RegisterPage Tests" finished-at="2024-09-05T07:59:11 IST" duration-ms="23884">
+    <test started-at="2024-09-09T12:33:41 IST" name="RegisterPage Tests" finished-at="2024-09-09T12:34:02 IST" duration-ms="21027">
       <class name="com.framework.YourStore.tests.RegisterPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-05T07:58:48 IST" name="setup" finished-at="2024-09-05T07:59:01 IST" duration-ms="13723" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-09T12:33:41 IST" name="setup" finished-at="2024-09-09T12:33:54 IST" duration-ms="12150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="navigateToRegisterPageTest()[pri:1, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-05T07:59:01 IST" name="navigateToRegisterPageTest" finished-at="2024-09-05T07:59:02 IST" duration-ms="587" status="PASS">
+        <test-method signature="navigateToRegisterPageTest()[pri:1, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-09T12:33:54 IST" name="navigateToRegisterPageTest" finished-at="2024-09-09T12:33:54 IST" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToRegisterPageTest -->
-        <test-method signature="pageUrlTest()[pri:2, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-05T07:59:03 IST" name="pageUrlTest" finished-at="2024-09-05T07:59:03 IST" duration-ms="2" status="PASS">
+        <test-method signature="pageUrlTest()[pri:2, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-09T12:33:55 IST" name="pageUrlTest" finished-at="2024-09-09T12:33:55 IST" duration-ms="561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageUrlTest -->
-        <test-method signature="doRegisterNewUserTest()[pri:3, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-05T07:59:03 IST" name="doRegisterNewUserTest" finished-at="2024-09-05T07:59:11 IST" duration-ms="8062" status="FAIL">
+        <test-method signature="doRegisterNewUserTest()[pri:3, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-09T12:33:56 IST" name="doRegisterNewUserTest" finished-at="2024-09-09T12:34:02 IST" duration-ms="6395" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -178,7 +139,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-05T07:59:11 IST" name="tearDown" finished-at="2024-09-05T07:59:11 IST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.YourStore.tests.RegisterPageTest@66c92293]" started-at="2024-09-09T12:34:02 IST" name="tearDown" finished-at="2024-09-09T12:34:02 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

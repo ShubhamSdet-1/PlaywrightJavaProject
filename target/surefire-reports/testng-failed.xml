@@ -4,17 +4,6 @@
   <listeners>
     <listener class-name="framework.YourStore.Listeners.ExtentReportListener"/>
   </listeners>
-  <test thread-count="3" parallel="tests" name="LoginPage Tests(failed)" verbose="0">
-    <classes>
-      <class name="com.framework.YourStore.tests.LoginPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.framework.YourStore.tests.LoginPageTest -->
-    </classes>
-  </test> <!-- LoginPage Tests(failed) -->
   <test thread-count="3" parallel="tests" name="RegisterPage Tests(failed)" verbose="0">
     <classes>
       <class name="com.framework.YourStore.tests.RegisterPageTest">

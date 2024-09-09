@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -106,11 +106,6 @@
                         <a href="#" panel-name="suite-Suite" title="com.framework.YourStore.tests.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterNewUserTest">doRegisterNewUserTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.framework.YourStore.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
@@ -120,6 +115,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.YourStore.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.framework.YourStore.tests.LoginPageTest" class="method navigator-link" hash-for-method="navigateToLoginPageTest">navigateToLoginPageTest</a> <!-- method navigator-link -->
@@ -137,17 +137,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.YourStore.tests.HomepageTest" class="method navigator-link" hash-for-method="searchTest(Macbook)">searchTest(Macbook)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.framework.YourStore.tests.HomepageTest" class="method navigator-link" hash-for-method="searchTest(samsung)">searchTest(samsung)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.framework.YourStore.tests.HomepageTest" class="method navigator-link" hash-for-method="searchTest(iPad)">searchTest(iPad)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.framework.YourStore.tests.HomepageTest" class="method navigator-link" hash-for-method="searchTest(Macbook)">searchTest(Macbook)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -180,30 +180,6 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.framework.YourStore.tests.LoginPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.framework.YourStore.tests.LoginPageTest.loginTest(LoginPageTest.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">com.framework.YourStore.tests.RegisterPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -233,6 +209,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="navigateToLoginPageTest">
                   </a> <!-- navigateToLoginPageTest -->
                   <span class="method-name">navigateToLoginPageTest</span>
@@ -255,6 +238,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="searchTest(Macbook)">
+                  </a> <!-- searchTest(Macbook) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Macbook)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="searchTest(samsung)">
                   </a> <!-- searchTest(samsung) -->
                   <span class="method-name">searchTest</span>
@@ -267,14 +258,6 @@
                   </a> <!-- searchTest(iPad) -->
                   <span class="method-name">searchTest</span>
                   <span class="parameters">(iPad)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchTest(Macbook)">
-                  </a> <!-- searchTest(Macbook) -->
-                  <span class="method-name">searchTest</span>
-                  <span class="parameters">(Macbook)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -390,52 +373,52 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'doRegisterNewUserTest')
 data.setCell(0, 2, 'com.framework.YourStore.tests.RegisterPageTest')
-data.setCell(0, 3, 8062);
+data.setCell(0, 3, 6395);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
 data.setCell(1, 2, 'com.framework.YourStore.tests.LoginPageTest')
-data.setCell(1, 3, 5043);
+data.setCell(1, 3, 4655);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'urlTest')
-data.setCell(2, 2, 'com.framework.YourStore.tests.LoginPageTest')
-data.setCell(2, 3, 1921);
+data.setCell(2, 1, 'searchTest')
+data.setCell(2, 2, 'com.framework.YourStore.tests.HomepageTest')
+data.setCell(2, 3, 743);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'navigateToRegisterPageTest')
 data.setCell(3, 2, 'com.framework.YourStore.tests.RegisterPageTest')
-data.setCell(3, 3, 587);
+data.setCell(3, 3, 697);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchTest')
-data.setCell(4, 2, 'com.framework.YourStore.tests.HomepageTest')
-data.setCell(4, 3, 581);
+data.setCell(4, 1, 'navigateToLoginPageTest')
+data.setCell(4, 2, 'com.framework.YourStore.tests.LoginPageTest')
+data.setCell(4, 3, 604);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'navigateToLoginPageTest')
-data.setCell(5, 2, 'com.framework.YourStore.tests.LoginPageTest')
-data.setCell(5, 3, 559);
+data.setCell(5, 1, 'pageUrlTest')
+data.setCell(5, 2, 'com.framework.YourStore.tests.RegisterPageTest')
+data.setCell(5, 3, 561);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'searchTest')
 data.setCell(6, 2, 'com.framework.YourStore.tests.HomepageTest')
-data.setCell(6, 3, 481);
+data.setCell(6, 3, 449);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'searchTest')
 data.setCell(7, 2, 'com.framework.YourStore.tests.HomepageTest')
-data.setCell(7, 3, 452);
+data.setCell(7, 3, 437);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'titleTest')
-data.setCell(8, 2, 'com.framework.YourStore.tests.HomepageTest')
-data.setCell(8, 3, 12);
+data.setCell(8, 1, 'urlTest')
+data.setCell(8, 2, 'com.framework.YourStore.tests.LoginPageTest')
+data.setCell(8, 3, 157);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'pageUrlTest')
-data.setCell(9, 2, 'com.framework.YourStore.tests.RegisterPageTest')
-data.setCell(9, 3, 2);
+data.setCell(9, 1, 'urlTest')
+data.setCell(9, 2, 'com.framework.YourStore.tests.HomepageTest')
+data.setCell(9, 3, 22);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'urlTest')
+data.setCell(10, 1, 'titleTest')
 data.setCell(10, 2, 'com.framework.YourStore.tests.HomepageTest')
-data.setCell(10, 3, 1);
+data.setCell(10, 3, 6);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -461,6 +444,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.YourStore.tests.HomepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.framework.YourStore.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
@@ -468,107 +458,104 @@ return data;
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.framework.YourStore.tests.HomepageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.framework.YourStore.tests.RegisterPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.framework.YourStore.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.framework.YourStore.tests.HomepageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">navigateToLoginPageTest</span>
-                <span class="method-start">13194 ms</span>
+                <span class="method-name">urlTest</span>
+                <span class="method-start">11935 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.framework.YourStore.tests.RegisterPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">navigateToRegisterPageTest</span>
-                <span class="method-start">13726 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.framework.YourStore.tests.HomepageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">urlTest</span>
-                <span class="method-start">13755 ms</span>
+                <span class="method-start">12152 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.framework.YourStore.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">urlTest</span>
-                <span class="method-start">14342 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.framework.YourStore.tests.RegisterPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">pageUrlTest</span>
-                <span class="method-start">15115 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">doRegisterNewUserTest</span>
-                <span class="method-start">15325 ms</span>
+                <span class="method-name">navigateToLoginPageTest</span>
+                <span class="method-start">12252 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.framework.YourStore.tests.HomepageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">titleTest</span>
-                <span class="method-start">16259 ms</span>
+                <span class="method-start">12398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Macbook)</span>
+                <span class="method-start">12639 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.framework.YourStore.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.framework.YourStore.tests.RegisterPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginTest</span>
-                <span class="method-start">16473 ms</span>
+                <span class="method-name">pageUrlTest</span>
+                <span class="method-start">13435 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.framework.YourStore.tests.HomepageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">searchTest(Macbook)</span>
-                <span class="method-start">16781 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">searchTest(iPad)</span>
-                <span class="method-start">17959 ms</span>
+                <span class="method-start">13664 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.YourStore.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">urlTest</span>
+                <span class="method-start">13996 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.YourStore.tests.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">doRegisterNewUserTest</span>
+                <span class="method-start">14153 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.YourStore.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">14292 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.YourStore.tests.HomepageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">searchTest(samsung)</span>
-                <span class="method-start">18624 ms</span>
+                <span class="method-start">14567 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19372 ms</span>
+                <span class="method-start">15190 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.framework.YourStore.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21833 ms</span>
+                <span class="method-start">19104 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.framework.YourStore.tests.RegisterPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23572 ms</span>
+                <span class="method-start">20758 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

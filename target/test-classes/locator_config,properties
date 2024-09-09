@@ -1,0 +1,31 @@
+******************Homepage****************************************
+
+searchField=div#search input
+searchIcon=button[class='btn btn-default btn-lg']
+searchResultHeader=div#content h1
+myAccountDropdown=a[title='My Account']
+loginLink=a:text('Login')
+registerLink=a:text('Register')
+
+******************LoginPage****************************************
+
+usernamefield=input#input-email
+passwordfield=input#input-password
+forgottenpasswordlink=//div[@class='form-group']//a[normalize-space()='Forgotten Password']
+loginbutton=input[value='Login']
+myAccountHeader=//h2[text()='My Account']
+
+******************RegisterPage****************************************
+
+RegisterPageHeader=h1:text('Register Account')
+firstName=//input[@id='input-firstname']
+lastName=//input[@id='input-lastname']
+email=//input[@id='input-email']
+telephone=//input[@id='input-telephone']
+password=//input[@id='input-password']
+confirmPassword=//input[@id='input-confirm']
+checkboxPrivacyPolicy=//input[@name='agree']
+continue=//input[@value='Continue']
+accountcreationheader=//h1[text()='Your Account Has Been Created!']
+logoutLink=a:text('Logout')
+
